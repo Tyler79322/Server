@@ -1,0 +1,117 @@
+[16:34:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[16:34:11] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[16:34:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[16:34:11] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
+[16:34:11] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_202, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_202
+[16:34:11] [main/INFO] [FML]: Searching C:\Users\seabi\Desktop\Minecraft Servers\1.12.2\Server\.\mods for mods
+[16:34:11] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from spongeforge-1.12.2-2768-7.1.4.jar
+[16:34:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:34:11] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[16:34:11] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/C:/Users/seabi/Desktop/Minecraft%20Servers/1.12.2/Server/./mods/spongeforge-1.12.2-2768-7.1.4.jar Service=LaunchWrapper Env=SERVER
+[16:34:11] [main/WARN] [FML]: The coremod SpongeCoremod (org.spongepowered.mod.SpongeCoremod) is not signed!
+[16:34:11] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[16:34:11] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[DEFAULT]
+[16:34:11] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[PREINIT]
+[16:34:11] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[INIT]
+[16:34:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[16:34:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:34:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:34:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:34:13] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[16:34:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:34:13] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[16:34:13] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@4443ef6f
+[16:34:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[16:34:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[16:34:14] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[16:34:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[16:34:14] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[16:34:20] [main/WARN] [mixin]: Static binding violation: PRIVATE overwrite method initializeConnectionToPlayer in mixins.common.core.json:server.MixinPlayerList cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[16:34:20] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[16:34:25] [Server thread/INFO] [minecraft/DedicatedServer]: Starting minecraft server version 1.12.2
+[16:34:25] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
+[16:34:26] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[16:34:26] [Server thread/INFO] [FML]: Replaced 1036 ore ingredients
+[16:34:26] [Server thread/INFO] [Sponge]: Found mcmod.info at jar:file:/C:/Users/seabi/Desktop/Minecraft%20Servers/1.12.2/Server/./mods/spongeforge-1.12.2-2768-7.1.4.jar!/mcmod.info
+[16:34:26] [Server thread/INFO] [Sponge]: Creating injector in stage 'PRODUCTION'
+[16:34:30] [Server thread/INFO] [FML]: Searching C:\Users\seabi\Desktop\Minecraft Servers\1.12.2\Server\.\mods for mods
+[16:34:31] [Server thread/WARN] [Sponge]: Plugin 'nexus' seems to be missing a valid mcmod.info metadata file. This is not a problem when testing plugins, however it is recommended to include one in public plugins.
+Please see https://docs.spongepowered.org/master/en/plugin/plugin-meta.html for details.
+[16:34:31] [Server thread/INFO] [FML]: Forge Mod Loader has identified 11 mods to load
+[16:34:31] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[16:34:31] [Server thread/WARN] [FML]: Missing English translation for spongeapi: assets/spongeapi/lang/en_us.lang
+[16:34:31] [Server thread/WARN] [FML]: Missing English translation for spongeforge: assets/spongeforge/lang/en_us.lang
+[16:34:31] [Server thread/WARN] [FML]: Missing English translation for nexus: assets/nexus/lang/en_us.lang
+[16:34:31] [Server thread/WARN] [FML]: Missing English translation for pixelextras: assets/pixelextras/lang/en_us.lang
+[16:34:31] [Server thread/WARN] [FML]: Missing English translation for wondertrade: assets/wondertrade/lang/en_us.lang
+[16:34:31] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, nexus, pixelextras, pixelmon, wondertrade] at CLIENT
+[16:34:31] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, nexus, pixelextras, pixelmon, wondertrade] at SERVER
+[16:34:32] [Server thread/WARN] [Sponge]: There's no certificate fingerprint available
+[16:34:32] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[16:34:32] [Server thread/INFO] [FML]: Found 1169 ObjectHolder annotations
+[16:34:32] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[16:34:32] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[16:34:32] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[16:34:32] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Starting version check at https://reforged.gg/forge/update.json
+[16:34:33] [Server thread/INFO] [Pixelmon]: Loading Pixelmon version 6.3.4
+[16:34:33] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Found status: UP_TO_DATE Target: null
+[16:34:33] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[16:34:33] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[16:34:33] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Starting version check at https://files.minecraftforge.net/maven/org/spongepowered/spongeforge/promotions_slim.json
+[16:34:33] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Found status: OUTDATED Target: 7.1.2
+[16:34:34] [Server thread/INFO] [Pixelmon]: Checking for migrations..
+[16:34:34] [Server thread/INFO] [Pixelmon]: Loading Advancements
+[16:34:35] [Server thread/INFO] [STDOUT]: [com.wondertrademod.wondertrade.Utilities:loadDefaultCooldowns:93]: 2120447d-bb7a-49f3-83a0-aad8d4f2b7c5
+[16:34:35] [Server thread/INFO] [STDOUT]: [com.wondertrademod.wondertrade.Wondertrade:preInit:80]: [Wondertrade] Successfully loaded configuration File.
+[16:34:35] [Server thread/INFO] [FML]: Applying holder lookups
+[16:34:35] [Server thread/INFO] [FML]: Holder lookups applied
+[16:34:36] [Server thread/INFO] [Pixelmon]: Loading TM/HMs.
+[16:34:36] [Server thread/INFO] [FML]: Applying holder lookups
+[16:34:36] [Server thread/INFO] [FML]: Holder lookups applied
+[16:34:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `sponge` for name `human`, expected `spongeforge`. This could be a intended override, but in most cases indicates a broken mod.
+[16:34:36] [Server thread/INFO] [FML]: Applying holder lookups
+[16:34:36] [Server thread/INFO] [FML]: Holder lookups applied
+[16:34:36] [Server thread/INFO] [FML]: Applying holder lookups
+[16:34:36] [Server thread/INFO] [FML]: Holder lookups applied
+[16:34:36] [Server thread/INFO] [FML]: Injecting itemstacks
+[16:34:36] [Server thread/INFO] [FML]: Itemstack injection complete
+[16:34:36] [Server thread/INFO] [minecraft/DedicatedServer]: Loading properties
+[16:34:36] [Server thread/INFO] [minecraft/DedicatedServer]: Default game type: SURVIVAL
+[16:34:36] [Server thread/INFO] [minecraft/DedicatedServer]: Generating keypair
+[16:34:36] [Server thread/INFO] [minecraft/DedicatedServer]: Starting Minecraft server on 192.168.1.23:25565
+[16:34:36] [Server thread/INFO] [minecraft/NetworkSystem]: Using default channel type
+[16:34:37] [Server thread/INFO] [FML]: Applying holder lookups
+[16:34:37] [Server thread/INFO] [FML]: Holder lookups applied
+[16:34:37] [Server thread/INFO] [Pixelmon]: Registering shop items.
+[16:34:37] [Server thread/INFO] [Pixelmon]: Registering NPCs.
+[16:34:37] [Server thread/INFO] [Pixelmon]: Registered NPC trades.
+[16:34:37] [Server thread/INFO] [Pixelmon]: Registering structures.
+[16:34:39] [Server thread/INFO] [Pixelmon]: Registering drops.
+[16:34:39] [Server thread/INFO] [Pixelmon]: Registering Pokémon drops.
+[16:34:39] [Server thread/INFO] [Pixelmon]: Item not found: pixelmon:odd_keystone in pokedrops.json
+[16:34:39] [Server thread/INFO] [Pixelmon]: Registering battle rules.
+[16:34:45] [Server thread/INFO] [FML]: Injecting itemstacks
+[16:34:45] [Server thread/INFO] [FML]: Itemstack injection complete
+[16:34:45] [Server thread/INFO] [Pixelmon]: Registering spawn sets.
+[16:34:45] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 11 mods
+[16:34:46] [Server thread/INFO] [minecraft/DedicatedServer]: Preparing level "world"
+[16:34:46] [Server thread/INFO] [Sponge]: Checking for worlds that need to be migrated...
+[16:34:46] [Server thread/INFO] [Sponge]: No worlds were found in need of migration.
+[16:34:46] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[16:34:46] [Server thread/INFO] [FML]: Applying holder lookups
+[16:34:46] [Server thread/INFO] [FML]: Holder lookups applied
+[16:34:47] [Server thread/INFO] [minecraft/AdvancementList]: Loaded 632 advancements
+[16:34:47] [Server thread/INFO] [minecraft/AdvancementList]: Loaded 109 advancement trees
+[16:34:47] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for level 0 (world)
+[16:34:48] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing spawn area: 44%
+[16:34:49] [Server thread/INFO] [Sponge]: Loading world [world] (overworld)
+[16:34:50] [Server thread/INFO] [minecraft/AdvancementList]: Loaded 632 advancements
+[16:34:50] [Server thread/INFO] [minecraft/AdvancementList]: Loaded 109 advancement trees
+[16:34:50] [Server thread/INFO] [Sponge]: Loading world [DIM-1] (the_nether)
+[16:34:50] [Server thread/INFO] [minecraft/AdvancementList]: Loaded 632 advancements
+[16:34:50] [Server thread/INFO] [minecraft/AdvancementList]: Loaded 109 advancement trees
+[16:34:50] [Server thread/INFO] [Sponge]: Loading world [DIM1] (the_end)
+[16:34:50] [Server thread/INFO] [minecraft/DedicatedServer]: Done (4.515s)! For help, type "help" or "?"
+[16:34:50] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+[16:34:51] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+>
